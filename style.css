@@ -1,0 +1,42 @@
+
+h1{
+   color: orange;
+}
+h2{
+   color:orange;
+}
+p{
+   color: aliceblue;
+}
+ul{
+   color: aliceblue;
+}
+
+
+li + li {
+    margin-top: 8px;
+}
+
+ol, ul {
+    margin-left: 20px;
+}
+ 
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   -webkit-font-smoothing: antialiased;
+}
+
+body {
+   background-color: #f8f8f8;
+}
+
+body > div {
+   background-color: black;
+   max-width: 736px;
+   margin-inline: auto;
+   margin-block: 200px;
+   padding: 70px;
+   border-radius: 100px;
+}
